@@ -1,13 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask with Git & Github</title>
-</head>
-<body>
-    <h1>Learning Collaboration with git and github</h1>
-    <p>Testing</p>
-    <h2>LGTM!</h2>
-</body>
-</html>
+{% extends 'layout.html' %}
+{% block title %}
+    axo-coder
+{% endblock %}
+{% block content %}
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-sm-4">
+                <h1>Hi. Iam axo-coder iam ironman</h1>
+                <p>Passionate with coding and building IoT devices with ESP32 and Arduino IDE. Learning website Development with python and flask</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-sm-4">
+                <h2 class="text-center">This website is still on progress</h2>
+                <p class="text-center">The website is managed by me, and using git and github to manage it!</p>
+                <button class="btn btn-info text-center btn-sm w-100">
+                    <a href="github.com/mariodenny">Go to my github</a>
+                </button>
+            </div>
+        </div>
+    </div>
+{% endblock %}
